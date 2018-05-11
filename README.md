@@ -16,12 +16,14 @@ generates a random number between a given range
 will pass true if all items in the block are true
 ```
 all_odd = [1,3].all? do |number| number.odd?
-end #=> true
+end
+#=> true
 ```
 
 ### `.select`
 will return a new array of items that are true
 ```
 [1,2,3,4,5].select do |number| number.even?
-end #=> [2,4]
+end
+#=> [2,4]
 ```
