@@ -15,7 +15,8 @@ generates a random number between a given range
 ### `.all?`
 will pass true if all items in the block are true
 ```
-all_odd = [1,3].all? do |number| number.odd? end #=> true
+all_odd = [1,3].all? do |number| number.odd?
+end #=> true
 ```
 
 ### `.select`
